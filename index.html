@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Laboratorio Orion - Feliz 2026</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap');
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+      background-color: #0c0c0c;
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+
+    .font-cinzel {
+      font-family: 'Cinzel', serif;
+    }
+
+    .door-perspective {
+      perspective: 1500px;
+    }
+
+    .rotate-y-115 {
+      transform: rotateY(115deg);
+    }
+
+    .-rotate-y-115 {
+      transform: rotateY(-115deg);
+    }
+
+    .animate-spin-slow {
+      animation: spin 8s linear infinite;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    #root:empty::before {
+      content: 'Iniciando Laboratorio Orion...';
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Cinzel', serif;
+      color: #ffffff;
+      font-size: 1.1rem;
+      letter-spacing: 0.2em;
+      text-align: center;
+      width: 100%;
+      text-shadow: 0 0 15px rgba(234, 179, 8, 0.6);
+    }
+  </style>
+  <script type="module" crossorigin src="/HappyNewYear2/assets/index-Cb3FOdp4.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>
