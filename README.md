@@ -1,42 +1,32 @@
-# HappyNewYear1 🎆
+# 🎆 Happy New Year 2026 - Orion Laboratory
 
-Una aplicación interactiva de Año Nuevo para el Laboratorio Orion.
+A creative high-impact 3D experience developed with **React**, **Three.js**, and **TypeScript**. This application evolved throughout the year, offering a dynamic countdown and interactive experience to welcome 2026.
 
-## Características
+## 🌟 Key Features
 
-- 🚪 Puertas animadas que se abren al hacer clic
-- ⏱️ Cuenta regresiva hasta el Año Nuevo 2026
-- ⭐ Efectos visuales con estrellas animadas
-- 🎆 Fuegos artificiales cuando llega el año nuevo
-- 🎵 Música de fondo
+* **Interactive 3D Scene:** Users can engage directly with the environment. **Click on the doors** to animate them and reveal the content behind.
+* **Real-Time Evolution:** Throughout 2025, the project functioned as a high-precision **real-time countdown clock**, calculating the exact remaining time until the 2026 New Year.
+* **Advanced Graphics:** Powered by **React Three Fiber** for seamless integration of 3D objects, lighting, and textures within the React ecosystem.
 
-## Instalación
+---
 
-```bash
-# Instalar dependencias
-npm install
+## 🚀 Live Demo
+Experience the project here: 
+👉 [https://EnriqueRocha13.github.io/HappyNewYear2/](https://EnriqueRocha13.github.io/HappyNewYear2/)
 
-# Ejecutar en desarrollo
-npm run dev
+---
 
-# Construir para producción
-npm run build
-```
+## 🛠️ Tech Stack
 
-## Despliegue en GitHub Pages
+* **React 19** + **Vite**
+* **Three.js** (via React Three Fiber)
+* **TypeScript**
+* **Canvas-confetti** (Particle effects)
 
-1. Asegúrate de que el `base` en `vite.config.ts` sea `/HappyNewYear1/`
-2. Construye el proyecto:  `npm run build`
-3. Sube la carpeta `dist` a la rama `gh-pages`
+---
 
-## Tecnologías
+## 📦 Installation & Local Setup
 
-- React 19
-- TypeScript
-- Vite
-- Tailwind CSS
-- Canvas Confetti
-
-## Autor
-
-EnriqueRocha13
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/EnriqueRocha13/HappyNewYear2.git](https://github.com/EnriqueRocha13/HappyNewYear2.git)
